@@ -98,8 +98,8 @@ const Register = () => {
                 </div>
                 <div className="text-danger">{error}</div>
                 <div className="text-success fs-5">{message}</div>
-                <div className='mt-4 w-25 mx-auto'>
-                    <input type="submit" value='Submit' className='btn banner-btn w-100' />
+                    <div className='mt-4 w-50 mx-auto'>
+                    <input type="submit" value='Submit' className='btn-login btn banner-btn w-100' />
                 </div>
             </form>
             <div className="mt-5 w-50 mx-auto">

@@ -26,6 +26,7 @@
         align-items: center;
         width: 75%;
         margin: 2px auto;
+        margin-bottom: 15px;
     }
     .banner h1{
         font-size: 30px;

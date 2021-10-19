@@ -74,10 +74,10 @@ const Login = () => {
                 </div>
                 <div className="text-danger">{error}</div>
                 <div className="text-success fs-5">{message}</div>
-                <div className='mt-4 mx-auto w-25'>
-                    <input type="submit" value='Login' className='res btn banner-btn w-100' />
+                <div className='mt-4 mx-auto w-50'>
+                    <input type="submit" value='Login' className='btn btn-login banner-btn w-100' />
                 </div>
-                <div className='mt-4 mx-auto w-25'>
+                <div className='res mt-4 mx-auto w-25'>
                     <button onClick={handleResetPassword} className="res w-100 btn-sm btn btn-outline-danger">Reset Password</button>
                 </div>
             </form>

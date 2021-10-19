@@ -7,4 +7,10 @@ label{
     .login button{
         font-size: 12px;
     }
+    .login .res{
+        display: none;
+    }
+    .btn-login{
+        font-size: 12px;
+    }
 }
