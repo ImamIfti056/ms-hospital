@@ -1,0 +1,26 @@
+.dept{
+    text-align: center;
+    margin: 18px 8px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0;
+    padding: 20px;
+    height: 300px;
+    transition: transform 0.1s ease-in;
+}
+
+.dept:hover{
+    transform: translateY(-15px);
+}
+
+.dept h4{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+
+.dept img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}

@@ -60,7 +60,7 @@ const Login = () => {
     }
 
     return (
-        <div className='container'>
+        <div className='login container'>
             <h2 className='my-5 text-center page-title'>Login</h2>
             <hr />
             <form className='w-50 mx-auto mt-5'  onSubmit={handleLogin}>
@@ -75,10 +75,10 @@ const Login = () => {
                 <div className="text-danger">{error}</div>
                 <div className="text-success fs-5">{message}</div>
                 <div className='mt-4 mx-auto w-25'>
-                    <input type="submit" value='Login' className='btn banner-btn w-100' />
+                    <input type="submit" value='Login' className='res btn banner-btn w-100' />
                 </div>
                 <div className='mt-4 mx-auto w-25'>
-                    <button onClick={handleResetPassword} className="w-100 btn-sm btn btn-outline-danger">Reset Password</button>
+                    <button onClick={handleResetPassword} className="res w-100 btn-sm btn btn-outline-danger">Reset Password</button>
                 </div>
             </form>
             <div className="mt-5 w-50 mx-auto">

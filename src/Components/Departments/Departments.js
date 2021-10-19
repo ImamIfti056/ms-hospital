@@ -14,10 +14,10 @@ const Departments = () => {
     console.log(departments)
     return (
         <div className='container text-center'>
-          <h1 className='fs-1 my-5'>
+          <h1 className='page-title my-5'>
                 Our Departments
             </h1>
-            <div className="row g-3 mb-5">
+            <div className="d-flex align-items-center justify-content-center flex-wrap">
             {
                 departments.map(department => <Department
                 key={department.id}

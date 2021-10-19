@@ -5,7 +5,7 @@ import aboutImg from '../../about.jpg';
 const About = () => {
     return (
         <div className='container'>
-            <div className="d-flex align-items-center justify-content-between pt-5">
+            <div className="d-lg-flex align-items-center justify-content-between pt-5">
             <div>
                 <h2 className='page-title mb-5 fw-bold'>About US</h2>
                 <p className='fs-5'>

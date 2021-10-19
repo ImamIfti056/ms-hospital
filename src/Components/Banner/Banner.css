@@ -19,3 +19,20 @@
     background-color: var(--primary-color);
     color: white;
 }
+
+@media (max-width: 468px){
+    .banner-left{
+        text-align: center;
+        align-items: center;
+        width: 75%;
+        margin: 2px auto;
+    }
+    .banner h1{
+        font-size: 30px;
+    }
+    .banner button{
+        padding: 8px 12px;
+        font-size: 18px;
+        width :75%
+    }
+}

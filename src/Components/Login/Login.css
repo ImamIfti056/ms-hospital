@@ -2,3 +2,9 @@ label{
     color: var(--primary-color);
     font-weight: bold;
 }
+
+@media (max-width: 468px){
+    .login button{
+        font-size: 12px;
+    }
+}

@@ -6,7 +6,7 @@ const WorkHour = () => {
         <div className='work-hour text-white py-5'>
             <div className="container py-5">
                 <div className="row gx-5">
-                <div className="col-lg-6 col-12 pe-5">
+                <div className="left col-lg-6 col-12 pe-5">
                     <h2 className='mb-4 fw-bold'><i className="far text-danger fa-clock"></i> Working Hours</h2>
                     <p className='mb-4 fs-5 text-white'>Check our working hours of a week, excluding goverment holidays.</p>
                     <div className="d-flex align-items-center justify-content-between">
