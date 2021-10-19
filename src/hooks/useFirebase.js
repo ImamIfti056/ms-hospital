@@ -34,7 +34,7 @@ const useFirebase = () => {
     useEffect( () => {
         onAuthStateChanged(auth, (user) => {
             if(user){
-                console.log('inside', user);
+                // console.log('inside', user);
                 setUser(user);
             }
             setIsLoading(false);

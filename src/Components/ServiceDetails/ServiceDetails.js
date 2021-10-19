@@ -9,7 +9,7 @@ const ServiceDetails = () => {
         fetch('/myServices.JSON')
         .then(res => res.json())
         .then(data => setServices(data))
-        .catch(error => console.log(error))
+        .catch(error => console.log(error.message))
     },[services])
 
     let service = services.find(s => s.id == serviceId);

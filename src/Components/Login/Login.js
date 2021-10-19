@@ -33,7 +33,7 @@ const Login = () => {
         e.preventDefault();
         signInWithEmailAndPassword(auth, email, password)
         .then(result => {
-            console.log(result.user);
+            // console.log(result.user);
             setError('');
             setMessage('Login Successful!');
         })

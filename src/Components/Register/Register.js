@@ -39,8 +39,8 @@ const Register = () => {
     // handle registration
     const handleRegister = (e) => {
         e.preventDefault();
-        console.log('form submitted');
-        console.log(name, email, password);
+        // console.log('form submitted');
+        // console.log(name, email, password);
         // password strength validation
         if(password.length < 6){
             setMessage('');
@@ -56,12 +56,12 @@ const Register = () => {
         createUserWithEmailAndPassword(auth, email, password)
         .then(result => {
             setError('');
-            console.log(result.user);
-            // verifyEmail();
+            // console.log(result.user);
+            verifyEmail();
             setUserName(result.user);
         })
         .catch(error => {
-            console.log(error.message);
+            // console.log(error.message);
             setError(error.message);
         });
 
@@ -71,10 +71,10 @@ const Register = () => {
     const setUserName = (user) => {
         updateProfile(auth.currentUser, {displayName: name})
         .then(result => {
-            console.log(user.displayName)
+            // console.log(user.displayName)
         })
         .catch(error => {
-            console.log(error.message);
+            // console.log(error.message);
             setError(error.message);
         })
     }

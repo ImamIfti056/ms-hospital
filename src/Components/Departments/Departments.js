@@ -9,9 +9,9 @@ const Departments = () => {
         fetch('./myDepartments.JSON')
         .then(res => res.json())
         .then(data => setDepartments(data))
-        .catch(error => console.log(error))
+        .catch(error => console.log(error.message))
     }, [])
-    console.log(departments)
+    // console.log(departments)
     return (
         <div className='container text-center'>
           <h1 className='page-title my-5'>
