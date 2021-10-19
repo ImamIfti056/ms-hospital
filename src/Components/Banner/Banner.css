@@ -1,0 +1,21 @@
+.banner-text{
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.banner-btn{
+    background-color: var(--secondary-color);
+    padding: 10px 30px;
+    width: 30%;
+    font-size: 18px;
+    color: white;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: all .25s ease;
+}
+
+.banner-btn:hover{
+    background-color: var(--primary-color);
+    color: white;
+}

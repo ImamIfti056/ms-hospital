@@ -2,6 +2,20 @@
   font-family: 'Lato', sans-serif;
 }
 
+:root{
+  --primary-color: #283779;
+  --secondary-color: #ff594d;
+}
+
+body{
+  background-color: #eee;
+}
+
+.page-title{
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
 .App {
   text-align: center;
 }

@@ -1,0 +1,17 @@
+.service{
+    background-color: #ccc;
+    border: 2px solid #fff;
+}
+
+.service-btn{
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;    
+    transition: padding 400ms ease;
+}
+
+.service-btn:hover{
+    padding: 8px 30px;
+    color: white;
+}
