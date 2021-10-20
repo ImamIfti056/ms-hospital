@@ -45,6 +45,9 @@ function App() {
           <Route path='/register'>
             <Register></Register>
           </Route>
+          <Route path='/services'>
+            <Services></Services>
+          </Route>
           <Route path='*'>
             <NotFound></NotFound>
           </Route>
