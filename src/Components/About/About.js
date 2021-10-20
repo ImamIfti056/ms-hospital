@@ -6,7 +6,7 @@ import Doctors from '../Doctors/Doctors';
 const About = () => {
     return (
         <div className='container'>
-        {/* Top Section */}
+            
             <div className="d-lg-flex align-items-center justify-content-between pt-5">
                 <div>
                     <h2 className='page-title mb-5 fw-bold'>About US</h2>
@@ -20,7 +20,7 @@ const About = () => {
                     <img src={aboutImg} alt="about-img" className="img-fluid" />
                 </div>
             </div>
-        {/* Bottom Section */}
+
             <Doctors></Doctors>
         </div>
     );

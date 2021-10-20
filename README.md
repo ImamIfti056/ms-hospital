@@ -1,6 +1,6 @@
 # MS Hospital
 
-This project was bootstrapped with [Create React App]https://healthcare-73a1d.web.app/).
+This project was created with react, bootstrap, firebase [Create React App]https://healthcare-73a1d.web.app/).
 
 ## Available Features
 
