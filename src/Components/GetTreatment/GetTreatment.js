@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { useState } from 'react/cjs/react.development';
+import { useState } from 'react';
 import useAuth from '../../hooks/useAuth';
 import './GetTreatment.css';
 
@@ -25,7 +25,7 @@ const GetTreatment = () => {
                 <h4 className='mb-4'><span className="fw-bold">Email: </span>&nbsp;{email}</h4>
 
                 <h4 className='mb-3'><span className="fw-bold">Choose a Department: </span></h4>
-                <select class="form-select mb-3">
+                <select className="form-select mb-3">
                     <option selected>Orthopaedic</option>
                     <option>Cardiology</option>
                     <option>Dental Surgery</option>
@@ -36,8 +36,8 @@ const GetTreatment = () => {
                 </select>
 
                 <h4 className='mb-3'><span className="fw-bold">Patients Problem: </span></h4>
-                <div class="form-floating mb-3">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <div className="form-floating mb-3">
+                    <textarea className="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
                     <label for="floatingTextarea">Describe your problem...</label>
                 </div>
 

@@ -19,7 +19,7 @@ const Header = () => {
                     <i className="fa fa-heart text-danger"></i> MS Hospital
                 </h1>
                 <div className='menu'>
-                    <h1 onClick={toggleMenu} className='me-2'><i class="fas fa-bars"></i></h1>
+                    <h1 onClick={toggleMenu} className='me-2'><i className="fas fa-bars"></i></h1>
                 </div>
                 <nav id='nav'>
                     <NavLink className='text-white text-decoration-none fs-5 ms-4' to='/home'>Home</NavLink>

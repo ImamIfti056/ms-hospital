@@ -57,7 +57,7 @@ const Register = () => {
         .then(result => {
             setError('');
             // console.log(result.user);
-            // verifyEmail();
+            verifyEmail();
             setUserName(result.user);
         })
         .catch(error => {

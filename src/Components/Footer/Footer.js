@@ -9,11 +9,11 @@ const Footer = () => {
                     <h2 className='text-danger'><i className="fa fa-heart text-white"></i> MS Hospital</h2>
                     <p className='fs-5 py-3'>
                         <address>
-                            <i class="fas fa-map-marker-alt"></i> BX Tower, <br />
+                            <i className="fas fa-map-marker-alt"></i> BX Tower, <br />
                             112, B/O street, <br />
                             Paris, France.
                         </address>
-                        <p><i class="fas fa-phone"></i> &nbsp;00993434-45, 003434234-34</p>
+                        <p><i className="fas fa-phone"></i> &nbsp;00993434-45, 003434234-34</p>
                     </p>
                 </div>
                 <div className='d-lg-flex align-items-center jusfify-content-between'>                    

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useState } from 'react/cjs/react.development';
+import { useState } from 'react';
 import Doctor from '../Doctor/Doctor';
 
 const Doctors = () => {
@@ -7,7 +7,7 @@ const Doctors = () => {
     const [doctors, setDoctors] = useState([]);
 
     useEffect(() => {
-        fetch('./myDoctors.JSON')
+        fetch('/myDoctors.json')
         .then(res => res.json())
         .then(data => setDoctors(data))
     },[doctors])

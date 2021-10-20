@@ -6,7 +6,7 @@ const Departments = () => {
     const [departments, setDepartments] = useState([]);
 
     useEffect(() => {
-        fetch('./myDepartments.JSON')
+        fetch('/myDepartments.json')
         .then(res => res.json())
         .then(data => setDepartments(data))
         .catch(error => console.log(error.message))

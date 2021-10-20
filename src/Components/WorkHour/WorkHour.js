@@ -19,7 +19,7 @@ const WorkHour = () => {
                     </div>
                 </div>
                 <div className="col-lg-6 col-12">
-                    <h2 className='mb-4 fw-bold'><i class="fas text-danger fa-user-md"></i> Doctors Availability</h2>
+                    <h2 className='mb-4 fw-bold'><i className="fas text-danger fa-user-md"></i> Doctors Availability</h2>
                     <p className='mb-4 fs-5 text-white'>You can also contact our doctors via email no matter where you are.</p>
                     <button className="btn btn-danger">Meet Our Doctors</button>
                 </div>
