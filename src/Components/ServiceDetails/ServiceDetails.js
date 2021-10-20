@@ -15,14 +15,15 @@ const ServiceDetails = () => {
     let service = services.find(s => s.id == serviceId);
 
     return (
-        <div className='container py-5'>
-            <div className="card w-50 mx-auto p-2">
-                <div>
-                    <img src={service?.img} alt="service-img" className="img-fluid w-100" />
+        <div className='container my-5'>
+            <div className="row g-3 align-items-center">
+                <div className='col-lg-6 col-12'>
+                    <img src={service?.img} alt="" className="img-fluid" />
                 </div>
-                <div className="card-text py-5 text-center">
-                    <h3 className='page-title mb-3'>{service?.name}</h3>
-                    <p>{service?.description}</p>
+                <div className='col-lg-6 col-12 text-center'>
+                    <h2 className="text-danger mb-3">{service?.name}</h2>
+                    <p className='fs-4'>{service?.description}</p>
+                    <u className="text-primary">Read more...</u>
                 </div>
             </div>
         </div>

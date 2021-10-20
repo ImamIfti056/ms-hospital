@@ -57,7 +57,7 @@ const Register = () => {
         .then(result => {
             setError('');
             // console.log(result.user);
-            verifyEmail();
+            // verifyEmail();
             setUserName(result.user);
         })
         .catch(error => {
@@ -101,8 +101,9 @@ const Register = () => {
                     <div className='mt-4 w-50 mx-auto'>
                     <input type="submit" value='Submit' className='btn-login btn banner-btn w-100' />
                 </div>
+                <p className="text-secondary text-center mt-2">By continuing you are agreeing with our <u className="text-primary">terms &amp; conditions.</u></p>
             </form>
-            <div className="mt-5 w-50 mx-auto">
+            <div className="mt-4 w-50 mx-auto">
                 <button onClick={signInUsingGoogle} className="btn btn-outline-primary w-100">Continue with Google</button>
             </div>
             <div className='my-3 text-center'>

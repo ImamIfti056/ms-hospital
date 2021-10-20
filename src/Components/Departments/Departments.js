@@ -17,6 +17,7 @@ const Departments = () => {
           <h1 className='page-title my-5'>
                 Our Departments
             </h1>
+            <hr />
             <div className="d-flex align-items-center justify-content-center flex-wrap">
             {
                 departments.map(department => <Department

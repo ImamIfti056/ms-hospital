@@ -6,12 +6,12 @@
 .service-btn{
     background-color: var(--secondary-color);
     color: white;
-    padding: 8px 20px;
-    border-radius: 20px;    
-    transition: padding 400ms ease;
+    padding: 8px 26px;
+    border-radius: 20px;  
+    transition: background-color 400ms ease;
 }
 
 .service-btn:hover{
-    padding: 8px 30px;
+    background-color: var(--primary-color);
     color: white;
 }

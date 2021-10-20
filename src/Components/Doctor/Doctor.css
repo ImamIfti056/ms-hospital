@@ -1,0 +1,43 @@
+.doct{
+    text-align: center;
+    margin: 26px 8px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0;
+    padding: 20px 0;
+    height: 300px;
+    transition: transform 0.1s ease-in;
+}
+
+.doct:hover{
+    transform: translateY(-15px);
+}
+
+.doct .doct-text{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: var(--primary-color);
+}
+
+.doct h4{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.doct p{
+    font-size: 18px;
+}
+
+.doct p span{
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+.doct img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
